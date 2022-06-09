@@ -1,13 +1,5 @@
 a,b=map(int,input().split())
-c=list(map(int,input().split()))
-d=list(map(int,input().split()))
-e=set(c)
-f=set(d)
-g=0
-for i in e:
-    if i in f:
-        g+=1
-for i in f:
-    if i in e:
-        g+=1
-print(g//2)
+c=set(map(int,input().split()))
+d=set(map(int,input().split()))
+z=c.intersection(d)
+print(len(z))
