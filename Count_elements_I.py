@@ -1,5 +1,5 @@
 a,b=map(int,input().split())
 c=set(map(int,input().split()))
 d=set(map(int,input().split()))
-z=c.intersection(d)
-print(len(z))
+e=c.intersection(d)
+print(len(e))
