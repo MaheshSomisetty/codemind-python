@@ -1,9 +1,8 @@
 a=input()
-c=a.lower()
-b=c.split()
-c=0
-for i in b:
-    d=i
-    if(d==d[::-1]):
-        c=c+1
-print(c)
+a=a.lower()
+a=a.split()
+b=0
+for i in a:
+    if i==i[::-1]:
+        b+=1
+print(b)
