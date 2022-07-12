@@ -1,0 +1,11 @@
+a=input()
+b=input()
+a=a.lower()
+b=b.lower()
+a=a.split()
+b=b.split()
+c=[]
+a=set(a)
+b=set(b)
+c=a.intersection(b)
+print(len(c))
