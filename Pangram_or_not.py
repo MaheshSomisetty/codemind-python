@@ -12,4 +12,3 @@ if(d==123):
     print("True")
 else:
     print("False")
-    
