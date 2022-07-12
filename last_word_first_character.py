@@ -1,6 +1,4 @@
 a=input()
-b=a.split()
-c=len(b)
-for i in b[c-1]:
-    print(i)
-    break
+a=a.split()
+b=a[-1]
+print(b[0])
