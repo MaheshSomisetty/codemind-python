@@ -1,14 +1,15 @@
 a=input()
 a=a.lower()
-b=[]
-c=''
+a=set(a)
+a=list(a)
 for i in a:
-    if a.count(i)==1:
-        b.append(i)
-for i in b:
     if i==' ':
-        b.remove(' ')
+        a.remove(' ')
+b=[]
+for i in a:
+    b.append(ord(i))
 b.sort()
+c=''
 for i in b:
-    c+=i
+    c+=chr(i)
 print(c)
