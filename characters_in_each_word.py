@@ -1,4 +1,6 @@
 a=input()
 a=a.split()
+c=[]
 for i in a:
-    print(len(i),end=' ')
+    c.append(len(i))
+print(*c)
