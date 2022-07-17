@@ -3,10 +3,9 @@ a=a.lower()
 a=a.split()
 c=[]
 for i in a:
-    d=0
+    b=0
     for j in i:
         if j in 'aeiou':
-            d+=1
-    c.append(d)
+            b+=1
+    c.append(b)
 print(min(c))
-    
