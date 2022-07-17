@@ -1,13 +1,15 @@
 a=int(input())
 b=list(map(int,input().split()))
 c=[]
-d=0
+e=[]
 for i in b:
-    if i not in c:
-        c.append(i)
-for i in c:
+    if i not in e and b.count(i)>1:
+        e.append(i)
+for i in e:
     if b.count(i)==i:
-        print(i,end=' ')
-        d=1
-if d==0:
+        c.append(i)
+if c==[]:
     print(-1)
+else:
+    print(*c)
+    
