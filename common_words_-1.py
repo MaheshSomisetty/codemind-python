@@ -1,11 +1,11 @@
 a=input()
-b=input()
 a=a.lower()
-b=b.lower()
 a=a.split()
+b=input()
+b=b.lower()
 b=b.split()
 c=[]
-a=set(a)
-b=set(b)
-c=a.intersection(b)
+for i in b:
+    if i in a:
+        c.append(i)
 print(len(c))
