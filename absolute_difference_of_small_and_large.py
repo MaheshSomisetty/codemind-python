@@ -7,4 +7,3 @@ for i in a:
     c=min(b)
     d=max(b)
     print(d-c,end=' ')
-        
