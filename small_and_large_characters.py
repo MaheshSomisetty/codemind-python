@@ -4,6 +4,4 @@ for i in a:
     b=[]
     for j in i:
         b.append(ord(j))
-    c=min(b)
-    d=max(b)
-    print(chr(c),chr(d),end=' ')
+    print(chr(min(b)),chr(max(b)),end=' ')
