@@ -7,4 +7,3 @@ b=b.split()
 for i in b:
     if i in a:
         print(i,end=' ')
-    
