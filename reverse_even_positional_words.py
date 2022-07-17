@@ -1,7 +1,7 @@
 a=input()
-a=a.split()
+b=a.split()
 for i in range(len(a)):
     if i%2==0:
-        print(a[i][::-1],end=' ')
+        print(b[i][::-1],end=' ')
     else:
-        print(a[i],end=' ')
+        print(b[i],end=' ')
