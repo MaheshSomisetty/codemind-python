@@ -24,6 +24,3 @@ for i in y:
 c=sorted(c)
 for i in c:
     print(i,end="")
-
-        
-        
