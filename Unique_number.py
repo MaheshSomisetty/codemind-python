@@ -1,15 +1,12 @@
 a=int(input())
-c=[]
-d=0
-while(a):
-    b=a%10
-    a=a//10
-    c.append(b)
-for i in c:
-    if(c.count(i)==1):
-        d+=1
-if(d==len(c)):
-    print('Unique Number')
+b=str(a)
+c=0
+for i in b:
+    if b.count(i)!=1:
+        c=1
+        break
+if c==0:
+    print("Unique Number")
 else:
-    print('Not Unique Number')
-        
+    print("Not Unique Number")
+    
