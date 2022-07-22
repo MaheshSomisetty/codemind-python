@@ -14,4 +14,3 @@ for i in range(len(c)):
     s.insert(d[i],c[i])
 z="".join(s)
 print(z)
-  
