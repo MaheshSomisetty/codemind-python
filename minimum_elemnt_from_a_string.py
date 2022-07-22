@@ -1,8 +1,9 @@
-a=input()
-a=a.split()
-b=sorted(a[-1])
-c=b[0]
-if c.lower() in b:
-    print(c.lower())
+s=input()
+s=s.split()
+a=list(s[-1])
+a.sort()
+b=a[0]
+if b.lower() in a:
+    print(b.lower())
 else:
-    print(c)
+    print(b)
